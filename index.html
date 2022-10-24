@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=280px, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script/jquery-3.6.0.js"></script> 
+   <script src="script/jquery-migrate-3.3.2.js"></script>
+   <script type="text/javascript" src="script/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="script/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="script/slick/slick-theme.css"/>
+
+</head>
+<body> 
+    <a href="#" class="menu-btn" id="menu-btn" onclick="menuOpenClose()">
+        <img class="burger-menu-icon" src="images/white-menu-icon-png-18.png" alt="menu-icon">
+    </a>
+    <div class="grid">
+        <div class="top">
+          
+          <div class="header">
+            
+              <div class="logo">
+                <div class="sprite"></div>
+                <p class="logo-text"><span class="red">КОТО</span>КАФЕ</p>
+            </div>
+           
+            <ul class="menu" id="menu">
+                <li class="menu-button"><a href="index.html" class="menu-link">Главная</a></li>
+                <li class="menu-button"><a href="cats.html" class="menu-link">Котики</a></li>
+                <li class="menu-button"><a href="menu.html" class="menu-link">Меню</a></li>
+                <li class="menu-button"><a href="news.html" class="menu-link">Новости</a></li>
+                <li class="menu-button"><a href="faq.html" class="menu-link">FAQ</a></li>
+                <li class="menu-button"><a href="contacts.html" class="menu-link">Контакты</a></li>
+            </ul>
+          </div>
+          <ul class="menu-2" id="menu-2">
+            <li class="menu-button"><a href="index.html" class="menu-link">Главная</a></li>
+            <li class="menu-button"><a href="cats.html" class="menu-link">Котики</a></li>
+            <li class="menu-button"><a href="menu.html" class="menu-link">Меню</a></li>
+            <li class="menu-button"><a href="news.html" class="menu-link">Новости</a></li>
+            <li class="menu-button"><a href="faq.html" class="menu-link">FAQ</a></li>
+            <li class="menu-button"><a href="contacts.html" class="menu-link">Контакты</a></li>
+        </ul>
+          <div class="header-pic">
+              <p class="pic-text-1 outline">ДОБРО ПОЖАЛОВАТЬ В</p>
+              <p class="pic-text-2 outline"><span class="red">КОТО</span><span class="pink">КАФЕ</span></p>
+              <ul class="header-buttons-container">
+                    <li class="header-buttons">
+                        <a href="cats.html" class="header-buttons-links">
+                           <img src="images/1_tTRxvnxhVMNxE3NhBAhp5Q.png" class="header-buttons-pic" alt="cat">
+                        </a>
+                        <p class="main-header-btn-text centered outline">КОТИКИ</p>
+                    </li>
+                    <li class="header-buttons">
+                        <a href="menu.html" class="header-buttons-links">
+                           <img src="images/coffee.jpg" class="header-buttons-pic" alt="coffee">
+                        </a>
+                        <p class="main-header-btn-text centered outline">ВКУСНАЯ ЕДА</p>
+                    </li>
+                    <li class="header-buttons">
+                        <a href="#rescue" class="header-buttons-links">
+                           <img src="images/pixel-heart-2779422_1280.png" class="header-buttons-pic" alt="heart">
+                        </a>
+                        <p class="main-header-btn-text centered outline">ПОМОЩЬ</p>
+                    </li>
+              </ul>
+          </div> 
+        </div>
+
+        <div class="main">
+           <div class="main-about-us">
+               <div class="main-about-us-text-wrap">
+                   <h2 class="centered border-bottom">О нас</h2>
+                  <p class="main-about-us-text">Здесь Вы можете приятно провести время в уютной обстановке, насладиться чашечкой превосходного <span class="red">кото-кофе</span>  и <span class="red">кото-чая</span>, а также попробовать <span class="red">кото-сладости</span> в компании дружелюбных котов и кошек.</p>
+                  <p class="main-about-us-text">КОТОКАФЕ находится в МУЗЕЕ КОТА.</p>
+                  <p class="main-about-us-text">КАЖДОМУ ПОСЕТИТЕЛЮ МУЗЕЯ В ПОДАРОК ГОРЯЧИЕ НАПИТКИ И СЛАДОСТИ ИЗ КОТОКАФЕ</p>   
+                  <img class="main-about-us-gif" src="images/200w.gif" alt="coffee-gif">
+                </div>
+            </div>
+           <div class="main-slider-wrap">
+               <div id="slider" class="main-slider">
+                   <div class="slide"><img class="slide-img" src="images/gallery1.jpg" alt="cat"></div>
+                   <div class="slide"><img class="slide-img" src="images/gallery2.jpg" alt="cat"></div>
+                   <div class="slide"><img class="slide-img" src="images/gallery3.jpg" alt="cat"></div>
+                   <div class="slide"><img class="slide-img" src="images/gallery4.jpg" alt="cat"></div>
+                   <div class="slide"><img class="slide-img" src="images/gallery5.jpg" alt="cat"></div>
+                   <div class="slide"><img class="slide-img" src="images/gallery6.jpg" alt="cat"></div>
+                   <div class="slide"><img class="slide-img" src="images/gallery7.jpg" alt="cat"></div>
+               </div>   
+            </div>   
+            
+        
+           
+            <div id="rescue" class="rescue">
+                  <div class="rescue-inner">
+                      <h2 class="rescue-inner-text centered">ПОМОЩЬ БЕЗДОМНЫМ КОТАМ</h2>
+                      <p class="rescue-inner-text rescue-inner-text-small centered">Нажмите на сердечко, чтобы перейти на сайт одного из общественных объединений, которые помогают бездомным животным, оказывают медицинскую помощь и осуществляет передачу животных новым хозяевам. На сайтах Вы узнаете, каким способом можно помочь бездомным и нуждающимся животным. Любая Ваша помощь крайне важна.</p>
+                      <ul class="rescue-links-container">
+                            <li class="rescue-links">
+                                <a href="https://egida.by/" title='ООЗЖ "Эгида"' target="_blank">
+                                    <img src="images/heart.gif" class="heart-gif" alt="heart-gif">
+                                </a>
+                            </li>
+                            <li class="rescue-links">
+                                <a href="https://zooshans.by/" title='БОО ПБЖ "ЗООшанс"' target="_blank">
+                                    <img src="images/heart.gif" class="heart-gif" alt="heart-gif">
+                                </a>
+                            </li>
+                            <li class="rescue-links">
+                                <a href="https://kotvokoshke.by/" title='ООЗЖ "Кот в Окошке"' target="_blank">
+                                    <img src="images/heart.gif" class="heart-gif" alt="heart-gif">
+                                </a>
+                            </li>
+                            <li class="rescue-links">
+                                <a href="https://vk.com/domik_spasennih_dush" title='Приют "Домик Спасенных Душ"' target="_blank">
+                                    <img src="images/heart.gif" class="heart-gif" alt="heart-gif">
+                                </a>
+                            </li>
+                            <li class="rescue-links">
+                                <a href="http://kisorg.com/" title='ООЗЖ "Кот и Собака"' target="_blank">
+                                    <img src="images/heart.gif" class="heart-gif" alt="heart-gif">
+                                </a>
+                            </li>
+                      </ul>
+                    </div>
+            </div>  
+            <div class="contact-us">
+             <div class="contact-us-cover">
+              <div class="contact-us-inner">
+                <p class="contact-us-text centered big p-margin outline">ХОТИТЕ ЗАБРОНИРОВАТЬ СТОЛИК?</p>
+                <p class="centered">Оставьте свой номер телефона и мы вам перезвоним!</p>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Телефон" name="phone" id="phone" required="">
+                </div>
+                <div class="btn-submit-container">
+                    <a href="#" class="btn-submit-link">
+                        <div class="btn-submit">
+                            <p>Отправить</p>
+                        </div>
+                    </a>
+                </div>
+              </div>
+            </div> 
+            </div>  
+          
+        </div>
+
+
+        <a href="#" class="to-top"><img class="to-top-img" src="images/to-top.png" alt="to-top"></a>
+
+
+        <div class="footer">
+            <div class="footer-copyright">
+                <p>&copy; 2015-2022,  КОТОКАФЕ. Все права защищены.</p>
+            </div>
+            
+            <ul class="socials">
+                <li >
+                    <a href="https://vk.com/catmuseumby" target="_blank" class="socials-links" title="vk">
+                        <img class="social-links-img" src="images/vk-round.png" alt="vkontakte">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://twitter.com/catmuseumby" target="_blank" class="socials-links" title="twitter">
+                        <img class="social-links-img" src="images/twitter-icon-circle-logo.png" alt="twitter">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://www.facebook.com/catmuseumby" target="_blank" class="socials-links" title="facebook">
+                        <img class="social-links-img" src="images/fb.png" alt="fb">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://www.instagram.com/catmuseumby/" target="_blank" class="socials-links" title="instagram">
+                        <img class="social-links-img" src="images/inst.png" alt="inst">
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    <script>
+        jQuery(document).ready(function() {
+           console.log ('прив');
+});
+        $('#slider').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: 5000
+             });
+
+             var body = $("html, body");
+             var toTop = $(".to-top");   
+             $(window).on("scroll", function(){
+            var winScrollTopValue = $(window).scrollTop();
+           
+            if (winScrollTopValue > 800) {
+                toTop.fadeIn(800); 
+            } else if (winScrollTopValue < 800) {
+                toTop.hide(); 
+            }
+        });
+
+        toTop.on("click", toTopClicked); 
+
+        function toTopClicked(event) {
+            event.preventDefault(); 
+            toTop.toggleClass("test");
+
+            body.animate(
+                { scrollTop: 0 },
+                1200
+            );
+        }    
+        function menuOpenClose() {
+            var x = document.getElementById("menu-2");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+        }
+    </script>
+   
+   
+</body>
+</html>

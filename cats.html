@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котики</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <script src="script/jquery-3.6.0.js"></script> 
+   <script src="script/jquery-migrate-3.3.2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#" class="menu-btn" id="menu-btn" onclick="menuOpenClose()">
+        <img class="burger-menu-icon" src="images/white-menu-icon-png-18.png" alt="menu-icon">
+    </a>
+    <div class="grid-contacts">
+        <div class="top">
+        <div class="header">
+          
+            <div class="logo">
+              <div class="sprite"></div>
+              <p class="logo-text"><span class="red">КОТО</span>КАФЕ</p>
+          </div>
+          
+          <ul class="menu">
+            <li class="menu-button"><a href="index.html" class="menu-link">Главная</a></li>
+            <li class="menu-button"><a href="cats.html" class="menu-link">Котики</a></li>
+            <li class="menu-button"><a href="menu.html" class="menu-link">Меню</a></li>
+            <li class="menu-button"><a href="news.html" class="menu-link">Новости</a></li>
+            <li class="menu-button"><a href="faq.html" class="menu-link">FAQ</a></li>
+            <li class="menu-button"><a href="contacts.html" class="menu-link">Контакты</a></li>
+        </ul>
+          
+        </div>
+        <ul class="menu-2" id="menu-2">
+            <li class="menu-button"><a href="index.html" class="menu-link">Главная</a></li>
+            <li class="menu-button"><a href="cats.html" class="menu-link">Котики</a></li>
+            <li class="menu-button"><a href="menu.html" class="menu-link">Меню</a></li>
+            <li class="menu-button"><a href="news.html" class="menu-link">Новости</a></li>
+            <li class="menu-button"><a href="faq.html" class="menu-link">FAQ</a></li>
+            <li class="menu-button"><a href="contacts.html" class="menu-link">Контакты</a></li>
+        </ul>
+        <div class="cats-top-pic">
+            <div class="cats-title">
+                <p>Наши котики</p>
+             </div>
+          </div>
+    </div>
+        <div class="cats-main">
+           <div class="cats-container-1">
+               <div class="each-cat">
+                  <div class="cats-images-wrap">
+                    <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/Alvin-1.JPG?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=500&ixlib=php-1.1.0&q=60&sizes=&w=500" alt="cat">
+                  </div>
+                  <p class="centered">Персик</p> 
+               </div>
+               <div class="each-cat">
+                <div class="cats-images-wrap">
+                    <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/jonny1.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                    
+                </div>
+               <p class="centered">Пончик</p> 
+              </div>
+              <div class="each-cat">
+                <div class="cats-images-wrap">
+                    <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/Notts/Kitty-Cafe-Cats-26-Toffee%402x.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                    
+                </div>
+               <p class="centered">Тоха</p> 
+              </div>
+              
+           </div>
+           <div class="cats-container-2">
+            <div class="each-cat">
+                <div class="cats-images-wrap">
+                    <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/Notts/Kitty-Cafe-Cats-10-Baloo%402x.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                    
+                </div>
+               <p class="centered">Чича</p> 
+              </div>
+              <div class="each-cat">
+                <div class="cats-images-wrap">
+                    <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/ralph_211214_202323.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=500&ixlib=php-1.1.0&q=60&sizes=&w=500" alt="cat">
+                    
+                </div>
+               <p class="centered">Мура</p> 
+              </div>
+              <div class="each-cat">
+                <div class="cats-images-wrap">
+                    <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/velma.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=500&ixlib=php-1.1.0&q=60&sizes=&w=500" alt="cat">
+                    
+                </div>
+               <p class="centered">Бусик</p> 
+              </div>
+           </div>
+
+            <div class="cats-container-3">
+                <div class="each-cat">
+                    <div class="cats-images-wrap">
+                 <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/miscief.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                                
+                            </div>
+                           <p class="centered">Черника</p> 
+                          </div>
+                          <div class="each-cat">
+                            <div class="cats-images-wrap">
+                                <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/persia.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                                
+                            </div>
+                           <p class="centered">Борис Сергеевич</p> 
+                          </div>
+                          <div class="each-cat">
+                            <div class="cats-images-wrap">
+                                <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/daphne.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                                
+                            </div>
+                           <p class="centered">Венера</p> 
+                          </div>
+                       </div>
+
+                       <div class="cats-container-4">
+                        <div class="each-cat">
+                            <div class="cats-images-wrap">
+                         <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/63A2319D-0D8A-4D14-8F3B-3FCAA474F57E.jpeg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                                        
+                                    </div>
+                                   <p class="centered">Композитор</p> 
+                                  </div>
+                                  <div class="each-cat">
+                                    <div class="cats-images-wrap">
+                                        <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/PEACHES1.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                                        
+                                    </div>
+                                   <p class="centered">Наоми</p> 
+                                  </div>
+                                  <div class="each-cat">
+                                    <div class="cats-images-wrap">
+                                        <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/popcorn.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                                        
+                                    </div>
+                                   <p class="centered">Гера</p> 
+                                  </div>
+                               </div>
+                               <div class="cats-container-5">
+                                <div class="each-cat">
+                                    
+                                 <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/Notts/Kitty-Cafe-Cats-20-Crackle%402x.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                                                
+                                            
+                                           <p class="centered">Лисик</p> 
+                                          </div>
+                                          <div class="each-cat">
+                                            
+                                                <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/Truffle.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                                                
+                                            
+                                           <p class="centered">Конфетка</p> 
+                                          </div>
+                                          <div class="each-cat">
+                                            
+                                                <img class="cats-images" src="https://kitty-cafe.imgix.net/catImages/Misty1.jpg?auto=compress%2Cformat&className=tile__image&crop=focalpoint&fit=crop&fp-x=0.5&fp-y=0.5&h=750&ixlib=php-1.1.0&q=60&sizes=&w=750" alt="cat">
+                                                
+                                            
+                                           <p class="centered">Генри</p> 
+                                          </div>
+                                       </div>                
+        </div>
+
+        <div class="footer">
+            <div class="footer-copyright">
+                <p>&copy; 2015-2022,  КОТОКАФЕ. Все права защищены.</p>
+            </div>
+            
+            <ul class="socials">
+                <li >
+                    <a href="https://vk.com/catmuseumby" target="_blank" class="socials-links" title="vk">
+                        <img class="social-links-img" src="images/vk-round.png" alt="vkontakte">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://twitter.com/catmuseumby" target="_blank" class="socials-links" title="twitter">
+                        <img class="social-links-img" src="images/twitter-icon-circle-logo.png" alt="twitter">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://www.facebook.com/catmuseumby" target="_blank" class="socials-links" title="facebook">
+                        <img class="social-links-img" src="images/fb.png" alt="fb">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://www.instagram.com/catmuseumby/" target="_blank" class="socials-links" title="instagram">
+                        <img class="social-links-img" src="images/inst.png" alt="inst">
+                    </a>
+                </li>
+            </ul>
+            
+        </div>  
+    </div>  
+    <a href="#" class="to-top"><img class="to-top-img" src="images/to-top.png"  alt="to-top"></a>
+    <script>
+         var body = $("html, body");
+             var toTop = $(".to-top");   
+             $(window).on("scroll", function(){
+            var winScrollTopValue = $(window).scrollTop();
+           
+            if (winScrollTopValue > 800) {
+                toTop.fadeIn(800); 
+            } else if (winScrollTopValue < 800) {
+                toTop.hide(); 
+            }
+        });
+
+        toTop.on("click", toTopClicked); 
+
+        function toTopClicked(event) {
+            event.preventDefault(); 
+            toTop.toggleClass("test");
+
+            body.animate(
+                { scrollTop: 0 },
+                1200
+            );
+        } 
+        function menuOpenClose() {
+            var x = document.getElementById("menu-2");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+        }
+    </script> 
+</body>
+</html>

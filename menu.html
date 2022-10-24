@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меню</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <script src="script/jquery-3.6.0.js"></script> 
+   <script src="script/jquery-migrate-3.3.2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#" class="menu-btn" id="menu-btn" onclick="menuOpenClose()">
+        <img class="burger-menu-icon" src="images/white-menu-icon-png-18.png" alt="menu-icon">
+    </a>
+    <div class="grid-contacts">
+    <div class="top">
+        <div class="header">
+            <div class="logo">
+              <div class="sprite"></div>
+              <p class="logo-text"><span class="red">КОТО</span>КАФЕ</p>
+          </div>
+          
+          <ul class="menu">
+            <li class="menu-button"><a href="index.html" class="menu-link">Главная</a></li>
+            <li class="menu-button"><a href="cats.html" class="menu-link">Котики</a></li>
+            <li class="menu-button"><a href="menu.html" class="menu-link">Меню</a></li>
+            <li class="menu-button"><a href="news.html" class="menu-link">Новости</a></li>
+            <li class="menu-button"><a href="faq.html" class="menu-link">FAQ</a></li>
+            <li class="menu-button"><a href="contacts.html" class="menu-link">Контакты</a></li>
+        </ul>
+          
+        </div>
+        <ul class="menu-2" id="menu-2">
+            <li class="menu-button"><a href="index.html" class="menu-link">Главная</a></li>
+            <li class="menu-button"><a href="cats.html" class="menu-link">Котики</a></li>
+            <li class="menu-button"><a href="menu.html" class="menu-link">Меню</a></li>
+            <li class="menu-button"><a href="news.html" class="menu-link">Новости</a></li>
+            <li class="menu-button"><a href="faq.html" class="menu-link">FAQ</a></li>
+            <li class="menu-button"><a href="contacts.html" class="menu-link">Контакты</a></li>
+        </ul>
+        <div class="menu-top-pic">
+            <div class="menu-title">
+                <p>Меню</p>
+             </div>
+          </div>
+    </div>
+        <div class="menu-content">
+
+           <div class="menu-content-1-wrap">
+            <ul class="menu-content-1">
+                <li class="menu-li"><img class="menu-icons" src="images/icedcoffe.png" alt=""><a class="menu-content-1_link" href="#cold-drinks"> <p class="menu-content-1_text-1">Холодные напитки</p></a></li>
+                <li class="menu-li"><img class="menu-icons" src="images/coffee-3089220-2642941.png" alt=""><a class="menu-content-1_link" href="#hot-drinks"><p class="menu-content-1_text-2">Горячие напитки</p></a></li>
+                <li class="menu-li"><img class="menu-icons" src="images/dessert.png" alt=""><a class="menu-content-1_link" href="#desserts"><p class="menu-content-1_text-3">Десерты</p></a></li>
+                <li class="menu-li"><img class="menu-icons" src="images/fd80ecec48eba2a9adb76e4133905879.png" alt=""><a class="menu-content-1_link" href="#hot-food"><p class="menu-content-1_text-4">Горячая еда</p></a></li>
+                <li class="menu-li"><img class="menu-icons" src="images/child.png" alt=""><a class="menu-content-1_link" href="#children-menu"><p class="menu-content-1_text-5">Детское меню</p></a></li>
+            </ul>
+            <img class="menu-gif-1" src="images/pusheen-icegif-2.gif" alt="coffe-cat">
+          </div> 
+            <div class="menu-content-1_pic-1"></div>
+
+            <div class="menu-content-2-wrap">
+                <img class="menu-gif-1" src="images/pusheen-drinking-icegif.gif" alt="coffe-cat">
+                <div class="menu-content-2">
+                    <h2 id="cold-drinks" class="menu-h2-title very-bold">Холодные напитки</h2>
+                    <h3 class=" very-bold">Смузи</h3>
+                    <div class="menu-content-2_text">
+                        <div class="menu-content-2_text-miniwrap"><p>Смузи Черника-банан</p></div>
+                        <p class="menu-width">400 мл</p>
+                        <p class="menu-width">5.90 Br</p>
+                    </div>
+                    <div class="menu-content-2_text">
+                        <div class="menu-content-2_text-miniwrap"><p>Смузи Персик-малина</p></div>
+                        <p class="menu-width">400 мл</p>
+                        <p class="menu-width">5.90 Br</p>
+                    </div>
+                    <div class="menu-content-2_text">
+                        <div class="menu-content-2_text-miniwrap">
+                            <p>Смузи шпинат - яблоко</p>
+                            <p class="small ital">Летний и легкий, готовится на одной из 3 основ: мороженое, соевое молоко или йогурт</p>
+                        </div>
+                        <p class="menu-width">400 мл</p>
+                        <p class="menu-width">5.90 Br</p>
+                    </div> 
+                    <h3 class=" very-bold">Лимонад</h3>
+                    <div class="menu-content-2_text">
+                        <div class="menu-content-2_text-miniwrap"><p>Лимонад черника-тимьян</p></div>
+                        <p class="menu-width">400 мл</p>
+                        <p class="menu-width">4.50 Br</p>
+                    </div>
+                    <h3 class=" very-bold">Кофе</h3>
+                    <div class="menu-content-2_text">
+                        <div class="menu-content-2_text-miniwrap">
+                            <p>Фраппучино</p>
+                            <p class="small ital">Классический, насыщенный, шоколадно-кофейный</p>
+                        </div>
+                        <p class="menu-width">400 мл</p>
+                        <p class="menu-width">5.90 Br</p>
+                    </div>
+                </div>
+                
+              </div> 
+                <div class="menu-content-2_pic-2"></div>
+
+                <div class="menu-content-3-wrap">
+                    <div class="menu-gif-wrap">
+                        <img class="menu-gif-2" src="images/coffee-cat.gif" alt="coffe-cat">
+                        <img class="menu-gif-2" src="images/pusheen-latte-icegif.gif" alt="coffe-cat">
+                        <img class="menu-gif-2" src="images/coffeecat.gif" alt="coffe-cat">
+                    </div>
+                    <div class="menu-content-2">
+                        <h2 id="hot-drinks" class="menu-h2-title very-bold">Горячие напитки</h2>
+                        <h3 class=" very-bold">Кофе</h3>
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Эспрессо</p>
+                                <p class="small ital">Итальянская классика</p>
+                            </div>
+                            <p class="menu-width">25 мл</p>
+                            <p class="menu-width">2.50 Br</p>
+                        </div>
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Капучино</p>
+                                <p class="small ital">Итальянская классика</p>
+                            </div>
+                            <p class="menu-width">300 мл</p>
+                            <p class="menu-width">3 Br</p>
+                        </div>
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Латте</p>
+                                <p class="small ital">Итальянская классика</p>
+                            </div>
+                            <p class="menu-width">300 мл</p>
+                            <p class="menu-width">3 Br</p>
+                        </div> 
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Раф-кофе</p>
+                                <p class="small ital">Фирменный напиток. Нежный и воздушный как облако</p>
+                            </div>
+                            <p class="menu-width">300 мл</p>
+                            <p class="menu-width">5 Br</p>
+                        </div> 
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Мокко</p>
+                                <p class="small ital">Классический мокко: молоко, шоколад, кофе и взбитые сливки</p>
+                            </div>
+                            <p class="menu-width">300 мл</p>
+                            <p class="menu-width">4.90 Br</p>
+                        </div> 
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Wake Up Coffee</p>
+                                <p class="small ital">Фирменный кофе со специями, острый и ароматный, а композиция из специй на пенке напоминает закат над Индией</p>
+                            </div>
+                            <p class="menu-width">300 мл</p>
+                            <p class="menu-width">4.50 Br</p>
+                        </div> 
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Миндальный латте</p>
+                            </div>
+                            <p class="menu-width">300 мл</p>
+                            <p class="menu-width">4.90 Br</p>
+                        </div> 
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Яблочный кофе</p>
+                                <p class="small ital">Фирменный напиток. Яркий и пряный, вместо молока яблочный сок</p>
+                            </div>
+                            <p class="menu-width">300 мл</p>
+                            <p class="menu-width">4.50 Br</p>
+                        </div> 
+                        <h3 class=" very-bold">Чай</h3>
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Масала чай</p>
+                                <p class="small ital">Традиционный пикантный индийский чай</p>
+                            </div>
+                            <p class="menu-width">350 мл</p>
+                            <p class="menu-width">5.20 Br</p>
+                        </div>
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Облепиховый чай</p>
+                                <p class="small ital">Натуральная облепиха, мед и апельсин. Согревающий и полезный чай</p>
+                            </div>
+                            <p class="menu-width">350 мл</p>
+                            <p class="menu-width">5.20 Br</p>
+                        </div>
+                        <h3 class=" very-bold">Какао</h3>
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Шоколадное молоко</p>
+                                <p class="small ital">Топленый шоколад и взбитое молоко</p>
+                            </div>
+                            <p class="menu-width">300 мл</p>
+                            <p class="menu-width">3.30 Br</p>
+                        </div>
+                        <div class="menu-content-2_text">
+                            <div class="menu-content-2_text-miniwrap">
+                                <p>Какао</p>
+                                <p class="small ital">Молоко и натуральный какао</p>
+                            </div>
+                            <p class="menu-width">300 мл</p>
+                            <p class="menu-width">3.30 Br</p>
+                        </div>
+                    </div>
+                    
+                  </div> 
+                    <div class="menu-content-3_pic-3 "></div>   
+
+                    <div class="menu-content-4-wrap">
+                        <div class="menu-gif-wrap">
+                            <img class="menu-gif-2" src="images/cakecat.gif" alt="coffe-cat">
+                            <img class="menu-gif-2" src="images/nyam.gif" alt="coffe-cat">
+                            <img class="menu-gif-2" src="images/source.gif" alt="coffe-cat">
+                            <img class="menu-gif-2" src="images/source-1.gif" alt="coffe-cat">
+                            <img class="menu-gif-2" src="images/icecreamcat.gif" alt="coffe-cat">
+                        </div>
+                        <div class="menu-content-2">
+                            <h2 id="desserts" class="menu-h2-title very-bold">Десерты</h2>
+                            <h3 class=" very-bold">Торты</h3>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Торт "Керрот кейк"</p>
+                                    <p class="small ital">Традиционный американский торт с морковью, грецким орехом, изюмом и прослойкой сливочно-лимонного крема. Пищевая ценность 100 г продукта: белки - 4,2 г, жиры - 18,7 г, углеводы - 28,4 г. Энергетическая ценность - 276 ккал.</p>
+                                </div>
+                                <p class="menu-width">100 г</p>
+                                <p class="menu-width">3.20 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Торт "Прага"</p>
+                                    <p class="small ital">Основу торта составляют три слоя воздушного французского шоколадного бисквита, пропитанного сиропом, и двух слоев масляного крема с какао. Сверху торт покрыт шоколадным ганашем.</p>
+                                </div>
+                                <p class="menu-width">135 г</p>
+                                <p class="menu-width">3.50 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Торт "Три шоколада"</p>
+                                    <p class="small ital">Благородный бельгийский темный, молочный и белый шоколад, в изысканном сочетании с нежным бисквитом. Пищевая ценность 100 г продукта: белки - 6,8г, жиры - 18,1г, углеводы - 30,6 г. Энергетическая ценность -314 ккал.</p>
+                                </div>
+                                <p class="menu-width">115 г</p>
+                                <p class="menu-width">4 Br</p>
+                            </div> 
+                            <h3 class=" very-bold">Пончики</h3>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Пончик "Банановый кураж"</p>
+                                    <p class="small ital">Пончик облит глазурью с банановым вкусом и украшен яркой цветной посыпкой. Тесто для пончиков – на один укус – невероятно мягкое и воздушное.</p>
+                                </div>
+                                <p class="menu-width">55 г</p>
+                                <p class="menu-width">1.50 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Пончик "Карамельная страсть"</p>
+                                    <p class="small ital">Пончик облит глазурью с карамельным вкусом и украшен трехцветной посыпкой. Тесто для пончиков – на один укус – невероятно мягкое и воздушное.</p>
+                                </div>
+                                <p class="menu-width">55 г</p>
+                                <p class="menu-width">1.50 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Пончик "Сладкая сказка"</p>
+                                    <p class="small ital">Пончик облит белой глазурью и украшен разноцветной посыпкой. Тесто для пончиков – на один укус – невероятно мягкое и воздушное.</p>
+                                </div>
+                                <p class="menu-width">55 г</p>
+                                <p class="menu-width">1.50 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Пончик "Чёрный сюрприз"</p>
+                                    <p class="small ital">Пончик облит глазурью из какао и украшен посыпкой из белого шоколада и лопающихся конфет. Тесто для пончиков – на один укус – невероятно мягкое и воздушное.</p>
+                                </div>
+                                <p class="menu-width">55 г</p>
+                                <p class="menu-width">1.50 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Пончик с какао-глазурью</p>
+                                    <p class="small ital">Пончик облит глазурью из какао и украшен полосками белой глазури. Тесто для пончиков – на один укус – невероятно мягкое и воздушное.</p>
+                                </div>
+                                <p class="menu-width">55 г</p>
+                                <p class="menu-width">1.50 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Пончик с посыпкой из белого шоколада</p>
+                                    <p class="small ital">Пончик облит глазурью из какао и украшен посыпкой из белого шоколада. Тесто для пончиков – на один укус – невероятно мягкое и воздушное.</p>
+                                </div>
+                                <p class="menu-width">55 г</p>
+                                <p class="menu-width">1.50 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Пончик с сахаром и корицей</p>
+                                    <p class="small ital">Это классика. Пончик посыпан сахаром и корицей. Тесто для пончиков – на один укус – невероятно мягкое и воздушное.</p>
+                                </div>
+                                <p class="menu-width">55 г</p>
+                                <p class="menu-width">1.50 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Пончик с карамельной начинкой</p>
+                                    <p class="small ital">Пончик облит тающей во рту карамельной глазурью и украшен жареными лесными орехами. Внутри пончика – карамельная начинка. Тесто для пончиков – на один укус – невероятно мягкое и воздушное.</p>
+                                </div>
+                                <p class="menu-width">75 г</p>
+                                <p class="menu-width">2 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Пончик с малиновой начинкой</p>
+                                    <p class="small ital">Пончик шоколадного цвета украшен полосками розовой глазури. Внутри пончика – малиновая начинка. Тесто для пончиков – на один укус – невероятно мягкое и воздушное.</p>
+                                </div>
+                                <p class="menu-width">75 г</p>
+                                <p class="menu-width">2 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Творожные пончики с начинкой</p>
+                                    <p class="small ital">Маленькие творожные пончики с ванильной или вишнёвой начинкой. Удобно кушать где угодно и когда угодно. Пищевая ценность 100 г продукта: белки – 5,6 г, жиры – 23,0 г, углеводы – 41,0 г. Энергетическая ценность – 335 ккал.</p>
+                                </div>
+                                <p class="menu-width">130 г</p>
+                                <p class="menu-width">4 Br</p>
+                            </div>
+                            <h3 class=" very-bold">Чизкейки</h3>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Чизкейк "Карамельный"</p>
+                                    <p class="small ital">Классический чизкейк в шоколадно-песочной корзинке, с карамельным глассажем и шоколадной крошкой. Пищевая ценность 100 г продукта: белки - 5,34 г, жиры - 28,6 г, углеводы - 29,4 г. Энергетическая ценность - 387 ккал.</p>
+                                </div>
+                                <p class="menu-width">115 г</p>
+                                <p class="menu-width">4 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Чизкейк "Нью-Йорк"</p>
+                                    <p class="small ital">Классический чизкейк Нью-Йорк из сливочного сыра с добавлением натуральной ванили, на песочной основе. Текстура начинки очень нежная, кремовая, с лёгким ароматом Топлёного молока. Корж изготовлен из сахарного песочного печенья. Пищевая ценность 100 г продукта: белки - 6,1 г, жиры – 26 г, углеводы - 26,3 г. Энергетическая ценность - 363,6 ккал.</p>
+                                </div>
+                                <p class="menu-width">115 г</p>
+                                <p class="menu-width">4 Br</p>
+                            </div>
+                            <h3 class=" very-bold">Мороженое</h3>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Мороженое с фруктами и сырным кремом</p>
+                                    <p class="small ital">Ванильное мороженое, сырный крем, киви, груша, виноград, соус персик-маракуйя</p>
+                                </div>
+                                <p class="menu-width">235 г</p>
+                                <p class="menu-width">8.50 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Мороженое с грецким орехом и кленовым сиропом</p>
+                                    <p class="small ital">Мороженое, мята, сахарная пудра</p>
+                                </div>
+                                <p class="menu-width">123 г</p>
+                                <p class="menu-width">8 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Ванильное мороженое с топпингом</p>
+                                    <p class="small ital">(Шоколадный/карамельный/клубничный)</p>
+                                </div>
+                                <p class="menu-width">140/30 г</p>
+                                <p class="menu-width">8 Br</p>
+                            </div>
+                            <h3 class=" very-bold">Маффин</h3>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Маффин мраморный</p>
+                                    <p class="small ital">Их пекут в специальной юбочке. А мраморную двух цветовую гармонию достигают, перемешивая два разных теста – светлый и насыщенный шоколадный, цвет которому придает натуральный порошок какао. Пищевая ценность 100 г продукта: белки – 5,2 г, жиры – 24,0 г, углеводы – 47,2 г. Энергетическая ценность – 428 ккал.</p>
+                                </div>
+                                <p class="menu-width">70 г</p>
+                                <p class="menu-width">2.50 Br</p>
+                            </div>
+                            
+                        </div>
+                        
+                      </div> 
+                        <div class="menu-content-4_pic-4 "></div> 
+
+                        <div class="menu-content-5-wrap">
+                            <div class="menu-gif-wrap">
+                                <img class="menu-gif-2" src="images/pizza1.gif" alt="coffe-cat">
+                                <img class="menu-gif-2" src="images/pusheen-icegif-3.gif" alt="coffe-cat">
+                                <img class="menu-gif-2" src="images/ttttt.gif" alt="coffe-cat">
+                            </div>
+                            <div class="menu-content-2">
+                                <h2 id="hot-food" class="menu-h2-title  very-bold">Горячая еда</h2>
+                                <h3 class=" very-bold">Пицца</h3>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Пицца Маргарита</p>
+                                        <p class="small ital">Тесто, соус для пиццы, масло оливковое, приправа, сыр Моцарелла, сыр Пармезан, помидор</p>
+                                    </div>
+                                    <p class="menu-width">450 г</p>
+                                    <p class="menu-width">14 Br</p>
+                                </div>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Пицца Вкусненькая</p>
+                                        <p class="small ital">Тесто, соус для пиццы, сыр Моцарелла, грудинка, приправа, масло оливковое, огурцы консервированные, колбаса сырая</p>
+                                    </div>
+                                    <p class="menu-width">550 г</p>
+                                    <p class="menu-width">15 Br</p>
+                                </div>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Пицца Пеперони</p>
+                                        <p class="small ital">Тесто, соус для пиццы, колбаса сырокопчёная, маслины, помидор, сыр Моцарелла, перец, масло оливковое, приправа</p>
+                                    </div>
+                                    <p class="menu-width">460 г</p>
+                                    <p class="menu-width">15 Br</p>
+                                </div>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Пицца Четыре сыра</p>
+                                        <p class="small ital">Тесто, соус томатный, сыр Моцарелла, сыр Дорблю, сыр Пармезан, брынза, орегано</p>
+                                    </div>
+                                    <p class="menu-width">500 г</p>
+                                    <p class="menu-width">15 Br</p>
+                                </div>
+                                <h3 class=" very-bold">Сэндвичи</h3>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Сэндвич с ветчиной и острым соусом</p>
+                                        <p class="small ital">Классический, полюбившийся сэндвич – свиная ветчина, сыр и острый соус в сытном французском батоне.</p>
+                                    </div>
+                                    <p class="menu-width">220 г</p>
+                                    <p class="menu-width">4 Br</p>
+                                </div>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Сэндвич с ветчиной и маринованными огурцами</p>
+                                        <p class="small ital">Мягкий французский батон в сочетании со свиной ветчиной, маринованными огурцами, сыром, майонезом и соусом – это сытный классический сэндвич.</p>
+                                    </div>
+                                    <p class="menu-width">220 г</p>
+                                    <p class="menu-width">4 Br</p>
+                                </div>
+                                <h3 class=" very-bold">Блины</h3>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Блины с лососем и рукколой</p>
+                                        <p class="small ital">Лосось слабосоленый, плавленый сыр, руккола</p>
+                                    </div>
+                                    <p class="menu-width">245 г</p>
+                                    <p class="menu-width">14 Br</p>
+                                </div>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Блины с курицей и консервированным огурцом</p>
+                                        <p class="small ital">Куриное филе, огурец консервированный, соус тартар, сыр моцарелла, томат черри, сметана</p>
+                                    </div>
+                                    <p class="menu-width">270 г</p>
+                                    <p class="menu-width">10 Br</p>
+                                </div>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Блины с ветчиной, томатами и луком фри</p>
+                                        <p class="small ital">Ветчина, сыр, томат, лук фри, томат черри, соус сметанно-сырный</p>
+                                    </div>
+                                    <p class="menu-width">290 г</p>
+                                    <p class="menu-width">10 Br</p>
+                                </div>
+                                <h3 class=" very-bold">Бургеры</h3>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Бургер с куриной котлетой</p>
+                                        <p class="small ital">Курица, томат, салат, карамелизированный лук, сыр, яйцо, соус тартар, горчица, сливочное масло, картофель фри, кетчуп</p>
+                                    </div>
+                                    <p class="menu-width">280 г</p>
+                                    <p class="menu-width">12,5 Br</p>
+                                </div>
+                                <div class="menu-content-2_text">
+                                    <div class="menu-content-2_text-miniwrap">
+                                        <p>Бургер с говядиной</p>
+                                        <p class="small ital">Говядина, томат, салат, маринованный огурец, лук, сыр, лук фри, горчица, соус барбекю, сливочное масло, фри, кетчуп</p>
+                                    </div>
+                                    <p class="menu-width">265 г</p>
+                                    <p class="menu-width">14,5 Br</p>
+                                </div>
+                            </div>
+                            
+                          </div> 
+                            <div class="menu-content-5_pic-5"></div>  
+
+                        <div class="menu-content-6-wrap">
+                            <div class="menu-gif-wrap">
+                                <img class="menu-gif-2" src="images/uwp407864.gif" alt="coffe-cat">
+                                <img class="menu-gif-2" src="images/source-2.gif" alt="coffe-cat">
+                                <img class="menu-gif-2" src="images/5df5f028afd6d23ba07330b1cd99e758.gif" alt="coffe-cat">
+                            </div>
+
+                            <div class="menu-content-2">
+                                <h2 id="children-menu" class="menu-h2-title very-bold">Детское меню</h2>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Детская пицца</p>
+                                    <p class="small ital">Тесто, соус-пицца, сыр качотта, моцарелла, куриное филе, ветчина, кукуруза, свежий горошек, томаты черри</p>
+                                </div>
+                                <p class="menu-width">315 г</p>
+                                <p class="menu-width">10 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Куриная котлетка на палочке</p>
+                                    <p class="small ital">Котлета куриная в панировке, паста Animaletti, сливки, горошек зеленый, фризе</p>
+                                </div>
+                                <p class="menu-width">100 г</p>
+                                <p class="menu-width">7.50 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Куриные наггетсы Солнышко</p>
+                                    <p class="small ital">Кусочки куриного филе в хрустящей панировке Панко, подаются с картофелем фри, пикантным соусом, томатами черри, маслинами и листьями шпината</p>
+                                </div>
+                                <p class="menu-width">190 г</p>
+                                <p class="menu-width">8 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Фрикадельки с картофельным пюре</p>
+                                    <p class="small ital">Картофельное пюре, куриные фрикадельки в сливочном соусе, подаются с салатом из огурцов и помидоров со сметаной и зеленью</p>
+                                </div>
+                                <p class="menu-width">285 г</p>
+                                <p class="menu-width">7.30 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Мороженое "Три цвета"</p>
+                                    <p class="small ital">Мороженое Дыня, мороженое Клубника, мороженое Блю Кюрасао</p>
+                                </div>
+                                <p class="menu-width">120 г</p>
+                                <p class="menu-width">6 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Какао с маршмэллоу</p>
+                                    <p class="small ital">Пищевая ценность на 100г продукта: 109,51 ккал</p>
+                                </div>
+                                <p class="menu-width">250 мл</p>
+                                <p class="menu-width">3 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Карамельная бэйби колада</p>
+                                    <p class="small ital">Ананасовый сок, сливки 10%, сироп Соленая Карамель</p>
+                                </div>
+                                <p class="menu-width">220 г</p>
+                                <p class="menu-width">4 Br</p>
+                            </div>
+                            <div class="menu-content-2_text">
+                                <div class="menu-content-2_text-miniwrap">
+                                    <p>Миндальное яблочко</p>
+                                    <p class="small ital">Яблочный сок, сироп Маракуйя, сироп Миндаль</p>
+                                </div>
+                                <p class="menu-width">220 г</p>
+                                <p class="menu-width">4 Br</p>
+                            </div> 
+                            </div>
+                        </div>
+        </div>
+        <div class="footer">
+            <div class="footer-copyright">
+                <p>&copy; 2015-2022,  КОТОКАФЕ. Все права защищены.</p>
+            </div>
+            
+            <ul class="socials">
+                <li >
+                    <a href="https://vk.com/catmuseumby" target="_blank" class="socials-links" title="vk">
+                        <img class="social-links-img" src="images/vk-round.png" alt="vkontakte">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://twitter.com/catmuseumby" target="_blank" class="socials-links" title="twitter">
+                        <img class="social-links-img" src="images/twitter-icon-circle-logo.png" alt="twitter">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://www.facebook.com/catmuseumby" target="_blank" class="socials-links" title="facebook">
+                        <img class="social-links-img" src="images/fb.png" alt="fb">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://www.instagram.com/catmuseumby/" target="_blank" class="socials-links" title="instagram">
+                        <img class="social-links-img" src="images/inst.png" alt="inst">
+                    </a>
+                </li>
+            </ul>
+            
+        </div>  
+        </div>  
+        <a href="#" class="to-top"><img class="to-top-img" src="images/to-top.png"   alt="to-top"></a>
+        <script>
+             var body = $("html, body");
+             var toTop = $(".to-top");   
+             $(window).on("scroll", function(){
+            var winScrollTopValue = $(window).scrollTop();
+           
+            if (winScrollTopValue > 800) {
+                toTop.fadeIn(800); 
+            } else if (winScrollTopValue < 800) {
+                toTop.hide(); 
+            }
+        });
+
+        toTop.on("click", toTopClicked); 
+
+        function toTopClicked(event) {
+            event.preventDefault(); 
+            toTop.toggleClass("test");
+
+            body.animate(
+                { scrollTop: 0 },
+                1200
+            );
+        } 
+        function menuOpenClose() {
+            var x = document.getElementById("menu-2");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+        }
+        </script>
+</body>
+</html>

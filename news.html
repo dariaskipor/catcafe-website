@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <script src="script/jquery-3.6.0.js"></script> 
+   <script src="script/jquery-migrate-3.3.2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#" class="menu-btn" id="menu-btn" onclick="menuOpenClose()">
+        <img class="burger-menu-icon" src="images/white-menu-icon-png-18.png" alt="menu-icon">
+    </a>
+    <div class="grid-contacts">
+        <div class="top">
+        <div class="header">
+          
+            <div class="logo">
+              <div class="sprite"></div>
+              <p class="logo-text"><span class="red">КОТО</span>КАФЕ</p>
+          </div>
+          
+          <ul class="menu">
+            <li class="menu-button"><a href="index.html" class="menu-link">Главная</a></li>
+            <li class="menu-button"><a href="cats.html" class="menu-link">Котики</a></li>
+            <li class="menu-button"><a href="menu.html" class="menu-link">Меню</a></li>
+            <li class="menu-button"><a href="news.html" class="menu-link">Новости</a></li>
+            <li class="menu-button"><a href="faq.html" class="menu-link">FAQ</a></li>
+            <li class="menu-button"><a href="contacts.html" class="menu-link">Контакты</a></li>
+        </ul>
+          
+        </div>
+        <ul class="menu-2" id="menu-2">
+            <li class="menu-button"><a href="index.html" class="menu-link">Главная</a></li>
+            <li class="menu-button"><a href="cats.html" class="menu-link">Котики</a></li>
+            <li class="menu-button"><a href="menu.html" class="menu-link">Меню</a></li>
+            <li class="menu-button"><a href="news.html" class="menu-link">Новости</a></li>
+            <li class="menu-button"><a href="faq.html" class="menu-link">FAQ</a></li>
+            <li class="menu-button"><a href="contacts.html" class="menu-link">Контакты</a></li>
+        </ul>
+        <div class="news-top-pic">
+            <div class="news-title">
+                <p>Новости</p>
+             </div>
+          </div>
+    </div>
+        <div class="news-main">
+           <div class="news-wrap">
+               <div class="border-fancy">
+
+                 <button id="myBtn-1" class="news">
+                   <img class="news-pic" src="images/news-1.jpg" alt="photo-1">
+                   <p class="news-text">Кошка Люся нашла свой дом и свою любящую семью!</p>
+                 </button>
+
+               </div>
+
+               <div id="myModal-1" class="modal">
+                <div class="modal-content">
+                  <span class="close-1">&times;</span>
+                  <div class="modal-inner-wrap">
+                    <img class="modal-pic" src="images/news-1.jpg" alt="photo-1">
+                  </div>
+                </div>
+              </div>
+
+              <div class="border-fancy">
+                <button id="myBtn-2" class="news">
+                  <img class="news-pic" src="images/news-2.jpg" alt="photo-2">
+                  <p class="news-text">Кошка Наоми нашла свой дом и свою любящую семью!</p>
+                </button>
+              </div>
+              <div id="myModal-2" class="modal">
+                <div class="modal-content">
+                  <span class="close-2">&times;</span>
+                  <div class="modal-inner-wrap">
+                    <img class="modal-pic" src="images/news-2.jpg" alt="photo-2">
+                  </div>
+                </div>
+              </div>
+
+              <div class="border-fancy">
+                <button id="myBtn-3" class="news">
+                  <img class="news-pic" src="images/news-3.jpg" alt="photo-3">
+                  <p class="news-text">Котик Персей нашел свой дом!</p>
+                </button>
+              </div>
+              <div id="myModal-3" class="modal">
+                <div class="modal-content">
+                  <span class="close-3">&times;</span>
+                  <div class="modal-inner-wrap">
+                    <img class="modal-pic" src="images/news-3.jpg" alt="photo-3">
+                  </div>
+                </div>
+                
+              </div>
+
+
+
+           </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-copyright">
+                <p>&copy; 2015-2022,  КОТОКАФЕ. Все права защищены.</p>
+            </div>
+            
+            <ul class="socials">
+                <li >
+                    <a href="https://vk.com/catmuseumby" target="_blank" class="socials-links" title="vk">
+                        <img class="social-links-img" src="images/vk-round.png" alt="vkontakte">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://twitter.com/catmuseumby" target="_blank" class="socials-links" title="twitter">
+                        <img class="social-links-img" src="images/twitter-icon-circle-logo.png" alt="twitter">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://www.facebook.com/catmuseumby" target="_blank" class="socials-links" title="facebook">
+                        <img class="social-links-img" src="images/fb.png" alt="fb">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://www.instagram.com/catmuseumby/" target="_blank" class="socials-links" title="instagram">
+                        <img class="social-links-img" src="images/inst.png" alt="inst">
+                    </a>
+                </li>
+            </ul>
+            
+        </div>  
+    </div>   
+
+    <a href="#" class="to-top"><img class="to-top-img" src="images/to-top.png"  alt="to-top"></a>
+    <script>
+
+var modal1 = document.getElementById("myModal-1");
+var btn1 = document.getElementById("myBtn-1");
+var span1 = document.getElementsByClassName("close-1")[0];
+var modal2 = document.getElementById("myModal-2");
+var btn2 = document.getElementById("myBtn-2");
+var span2 = document.getElementsByClassName("close-2")[0];
+var modal3 = document.getElementById("myModal-3");
+var btn3 = document.getElementById("myBtn-3");
+var span3 = document.getElementsByClassName("close-3")[0];
+btn1.onclick = function() {
+  modal1.style.display = "block";
+}
+span1.onclick = function() {
+  modal1.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+}
+btn2.onclick = function() {
+  modal2.style.display = "block";
+}
+span2.onclick = function() {
+  modal2.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal2) {
+    modal2.style.display = "none";
+  }
+}
+btn3.onclick = function() {
+  modal3.style.display = "block";
+}
+span3.onclick = function() {
+  modal3.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal3) {
+    modal3.style.display = "none";
+  }
+}
+var body = $("html, body");
+             var toTop = $(".to-top");   
+             $(window).on("scroll", function(){
+            var winScrollTopValue = $(window).scrollTop();
+           
+            if (winScrollTopValue > 800) {
+                toTop.fadeIn(800); 
+            } else if (winScrollTopValue < 800) {
+                toTop.hide(); 
+            }
+        });
+
+        toTop.on("click", toTopClicked); 
+
+        function toTopClicked(event) {
+            event.preventDefault(); 
+            toTop.toggleClass("test");
+
+            body.animate(
+                { scrollTop: 0 },
+                1200
+            );
+        } 
+        function menuOpenClose() {
+            var x = document.getElementById("menu-2");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+        }
+    </script> 
+</body>
+</html>

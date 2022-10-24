@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="style.css" rel="stylesheet">
+    <script src="script/jquery-3.6.0.js"></script> 
+   <script src="script/jquery-migrate-3.3.2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#" class="menu-btn" id="menu-btn" onclick="menuOpenClose()">
+        <img class="burger-menu-icon" src="images/white-menu-icon-png-18.png" alt="menu-icon">
+    </a>
+    <div class="grid-contacts">
+        <div class="top">
+        <div class="header">
+          
+            <div class="logo">
+              <div class="sprite"></div>
+              <p class="logo-text"><span class="red">КОТО</span>КАФЕ</p>
+          </div>
+          
+          <ul class="menu">
+            <li class="menu-button"><a href="index.html" class="menu-link">Главная</a></li>
+            <li class="menu-button"><a href="cats.html" class="menu-link">Котики</a></li>
+            <li class="menu-button"><a href="menu.html" class="menu-link">Меню</a></li>
+            <li class="menu-button"><a href="news.html" class="menu-link">Новости</a></li>
+            <li class="menu-button"><a href="faq.html" class="menu-link">FAQ</a></li>
+            <li class="menu-button"><a href="contacts.html" class="menu-link">Контакты</a></li>
+        </ul>
+        </div>
+        <ul class="menu-2" id="menu-2">
+            <li class="menu-button"><a href="index.html" class="menu-link">Главная</a></li>
+            <li class="menu-button"><a href="cats.html" class="menu-link">Котики</a></li>
+            <li class="menu-button"><a href="menu.html" class="menu-link">Меню</a></li>
+            <li class="menu-button"><a href="news.html" class="menu-link">Новости</a></li>
+            <li class="menu-button"><a href="faq.html" class="menu-link">FAQ</a></li>
+            <li class="menu-button"><a href="contacts.html" class="menu-link">Контакты</a></li>
+        </ul>
+        <div class="faq-top-pic">
+            <div class="faq-title">
+                <p>FAQ</p>
+             </div>
+          </div>
+    </div>
+        <div class="faq-main">
+            <div class="faq-wrap">
+           <h1 class="centered faq-text">Часто задаваемые вопросы</h1> 
+            <button class="question" onclick="openText1()">Откуда взялись коты и кошки обитающие в "Музее Кота"?</button>
+            <p class="question-text question-text-1 hidden">Котики, обитающие в музее, в прошлом бездомные. Их подобрали либо на улице, либо забрали из службы отлова бродячих животных. Многие из них находились в критическом состоянии, им грозила неминуемая гибель. Коты прошли ветеринарный осмотр, карантин, вакцинацию, а затем устроены в музей.</p>
+            <button class="question" onclick="openText2()">Сколько котов в музее?</button>
+            <p class="question-text question-text-2 hidden">На сегодняшний день в кошачьей команде музея насчитывается 25 котов и кошек. Также на передержке находится более тридцати котиков.</p>
+            <button class="question" onclick="openText3()">Почему коты спят в дневное время?</button>
+            <p class="question-text question-text-3 hidden">Коты, в отличие от человека, спят около 16-18 часов в день, хотя крепкий сон - это всего лишь 2-3 часа. При этом они очень быстро переходят ото сна к бодрствованию. Если вы видите, что коты спят в дневное время, то это потому что их внутренний биологический механизм требует этого.</p>
+            <button class="question" onclick="openText4()">Устают ли животные от обилия посетителей?</button>
+            <p class="question-text question-text-4 hidden">Коты и кошки музея прекрасно адаптировались к вниманию со стороны посетителей. Сотрудники музея следят за тем чтобы посетители бережно относились к животным. Ввиду того что по правилам музея котов можно только гладить (но не разрешается брать на руки), коты практически не чувствуют влияния со стороны посетителей и, соответственно, не устают от обилия посетителей. Кроме того, в музее предусмотрены места, где животные могут уединиться если почувствуют в этом необходимость.</p>
+            <button class="question" onclick="openText5()">Чем питаются животные?</button>
+            <p class="question-text question-text-5 hidden">В соответствии с рекомендациями специалистов, коты питаются лучшими доступными на сегодняшний день кошачьими кормами, которые содержат все необходимые для здоровья животных компоненты.</p>
+            <button class="question" onclick="openText6()">Есть ли в музее неприятный запах как следствие жизнедеятельности животных?</button>
+            <p class="question-text question-text-6 hidden">Неприятного запаха в музее нет. В кошачьих туалетах используется специальный наполнитель, который препятствует распространению неприятных запахов. Хорошая система кондиционирования поддерживает в помещении музея чистую и свежую атмосферу.</p>
+            <button class="question" onclick="openText7()">Какие меры предпринимает музей для защиты здоровья животных?</button>
+            <p class="question-text question-text-7 hidden">Каждый посетитель при входе в музей наступает на антибактериальный коврик, а затем обрабатывает руки антибактериальным раствором. Все коты и кошки проходят регулярный осмотр у ветеринарного врача.</p>
+            <button class="question" onclick="openText8()">Можно ли забрать к себе домой кота из музея? Каким образом?</button>
+            <p class="question-text question-text-8 hidden">Да, можно. Для этого необходимо поинтересоваться у администрации музея, каких из котов, обитающих в музее, можно забрать к себе домой в данный момент. После прохождения собеседования и обязательства надлежащим образом заботиться о животном, вы сможете забрать к себе домой кота.</p>
+        </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-copyright">
+                <p>&copy; 2015-2022,  КОТОКАФЕ. Все права защищены.</p>
+            </div>
+            
+            <ul class="socials">
+                <li >
+                    <a href="https://vk.com/catmuseumby" target="_blank" class="socials-links" title="vk">
+                        <img class="social-links-img" src="images/vk-round.png" alt="vkontakte">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://twitter.com/catmuseumby" target="_blank" class="socials-links" title="twitter">
+                        <img class="social-links-img" src="images/twitter-icon-circle-logo.png" alt="twitter">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://www.facebook.com/catmuseumby" target="_blank" class="socials-links" title="facebook">
+                        <img class="social-links-img" src="images/fb.png" alt="fb">
+                    </a>
+                </li>
+                <li >
+                    <a href="https://www.instagram.com/catmuseumby/" target="_blank" class="socials-links" title="instagram">
+                        <img class="social-links-img" src="images/inst.png" alt="inst">
+                    </a>
+                </li>
+            </ul>
+            
+        </div>  
+    </div>  
+    <a href="#" class="to-top"><img class="to-top-img" src="images/to-top.png"  alt="to-top"></a>
+    <script>
+        function openText1 () {
+            var pText = document.querySelector('.question-text-1');
+            pText.classList.toggle('hidden');
+        }
+        function openText2 () {
+            var pText = document.querySelector('.question-text-2');
+            pText.classList.toggle('hidden');
+        }
+        function openText3 () {
+            var pText = document.querySelector('.question-text-3');
+            pText.classList.toggle('hidden');
+        }
+        function openText4 () {
+            var pText = document.querySelector('.question-text-4');
+            pText.classList.toggle('hidden');
+        }
+        function openText5 () {
+            var pText = document.querySelector('.question-text-5');
+            pText.classList.toggle('hidden');
+        }
+        function openText6 () {
+            var pText = document.querySelector('.question-text-6');
+            pText.classList.toggle('hidden');
+        }
+        function openText7 () {
+            var pText = document.querySelector('.question-text-7');
+            pText.classList.toggle('hidden');
+        }
+        function openText8 () {
+            var pText = document.querySelector('.question-text-8');
+            pText.classList.toggle('hidden');
+        }
+        var body = $("html, body");
+             var toTop = $(".to-top");   
+             $(window).on("scroll", function(){
+            var winScrollTopValue = $(window).scrollTop();
+           
+            if (winScrollTopValue > 800) {
+                toTop.fadeIn(800); 
+            } else if (winScrollTopValue < 800) {
+                toTop.hide(); 
+            }
+        });
+
+        toTop.on("click", toTopClicked); 
+
+        function toTopClicked(event) {
+            event.preventDefault(); 
+            toTop.toggleClass("test");
+
+            body.animate(
+                { scrollTop: 0 },
+                1200
+            );
+        } 
+         function menuOpenClose() {
+            var x = document.getElementById("menu-2");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "flex";
+  }
+        }
+        
+    </script> 
+</body>
+</html>
